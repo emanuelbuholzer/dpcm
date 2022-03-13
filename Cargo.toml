@@ -5,3 +5,7 @@ edition = "2021"
 
 [dependencies]
 sndfile = "0.0"
+clap = { version = "3.1.6", features = ["derive"] }
+
+[dev-dependencies]
+proptest = "1.0.0"
